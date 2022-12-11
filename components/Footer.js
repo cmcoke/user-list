@@ -4,11 +4,11 @@ const Footer = () => {
   const d = new Date();
   let year = d.getFullYear();
 
-
   return (
-    <div>
+    <footer>
       <p>Copyright &copy; {year} User List</p>
-    </div>
+    </footer>
   )
+
 }
 export default Footer
